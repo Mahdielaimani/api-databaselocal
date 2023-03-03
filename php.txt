@@ -1,0 +1,64 @@
+<?php
+
+//code php
+
+$age = 24;
+
+echo "Ages is" .$age;
+
+// f php dima $ 9bel lvar f appel ola isti3mal
+// echo "<br/>"; // to bach a la ligne
+
+?>
+if elseif else
+
+Function // should 9bel dir function - and you can call allot -o bach tawsal lmotaghyrat bara lfunction $GLOBALS
+
+arry 
+
+$listname = array("mahdi","elaimani",23); // indexd -> List Dart
+
+for($i=0; i<count($listname); $i++){  // legth => count()
+
+     echo "<br/>";
+    echo $listname[$i];
+}
+
+$info = array(
+
+    "name" => "Mahdi" ,// Asso -> Map Dart :
+     "age" => 23
+);
+ 
+
+foreach($info as $key =>value){
+
+echo $key;
+echo "<br/>";
+}
+
+
+I)
+
+Request GET & POST
+
+POST // invisible (securiser) => so use with insert and update
+
+GET // visible(a9al securite) => use with select
+
+II)
+
+PDO Connect Database MYSQL // PDO (PHP DATA OBJECT) it's way to connect with Database by php
+
+quand je travaille localhost , user=root (y9der ywssal lga3 sala7yat)
+
+
+
+III)
+
+json: is langauge for communicate between langauge like if i have 
+back end php can connected with front end flutter by json
+
+V)
+
+SignUp and login Api : it's operation for INSERT(idafa) and SELECT(ta79o9)
